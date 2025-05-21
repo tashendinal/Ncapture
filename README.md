@@ -218,7 +218,7 @@ Screenshot
 
 Here is a screenshot of the Main Interface:
 
-![Main Interface](screenshots/1.jpeg)
+![Main Interface](Screenshots/1.jpg)
 
 
 
