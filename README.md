@@ -66,3 +66,70 @@ Survey results confirmed strong demand for an automated web application and guid
 Method of Approach
 
 Development Environment and Technologies
+
+
+      Component              Technology/Tool
+      Frontend               React.js, React Big Calendar
+      Backend                Node.js, Express.js
+      Database               MongoDB
+      Authentication         JSON Web Tokens (JWT)
+      Development IDE        Visual Studio Code
+      Version Control        Git, GitHub
+      Deployment             Microsoft Azure Cloud
+
+
+Methodology
+
+An Agile Scrum methodology was adopted, allowing iterative development with frequent user feedback incorporation. The project progressed through sprints involving:
+	•	Requirement gathering and analysis
+	•	Feature design and implementation
+	•	Testing and quality assurance
+	•	User feedback sessions
+	•	Incremental refinements
+
+This approach ensured alignment with stakeholder expectations and adaptability to changing requirements.
+
+Requirements
+
+Functional Requirements
+	•	User registration and secure login
+	•	Event creation, editing, approval, rejection, and deletion
+	•	Centralized scheduling with conflict detection
+	•	Resource allocation and monitoring
+	•	Role-based dashboards for administrators, staff, lecturers, media admins, and members
+	•	Real-time notifications and alerts
+	•	Feedback submission on events
+	•	Analytics reporting on event attendance and resource usage
+
+Non-Functional Requirements
+	•	Fast system response (under 2 seconds)
+	•	Scalability to support growing user base and event volume
+	•	Robust error handling and user-friendly messages
+	•	Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
+	•	Secure storage and transmission of data
+	•	Mobile responsiveness for accessibility on smartphones and tablets
+
+Hardware/Software Requirements
+	•	Hardware: Minimum 4GB RAM, Intel Core i3 or equivalent, 20GB free storage
+	•	Software:
+	•	Node.js v14+
+	•	MongoDB v4.4+
+	•	Modern web browsers
+	•	Internet connection for cloud-hosted components
+
+⸻
+
+Project Overview
+
+Ncapture provides a unified platform to replace manual event management at NSBM Green University. Users can submit event requests, manage schedules, allocate resources, and communicate through role-specific dashboards. The system reduces manual errors and administrative overhead while improving event quality and participation.
+
+Project Objectives and Results
+
+
+         Objective                                         Result                                                              Status
+
+         Automate event management processes               Fully functional web platform supporting event scheduling          Achieved
+         Enhance communication and real-time updates       Notifications and dashboard alerts implemented                     Achieved
+         Provide analytics for event/resource usage        Basic analytics dashboard with reporting capabilities              Partially achieved
+         Design user-friendly interface                    Role-based, intuitive UI accessible on multiple devices            Achieved
+
