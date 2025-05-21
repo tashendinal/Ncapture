@@ -2,15 +2,15 @@ admin login :  admin@gmail.com
 password : admin123
 
 
-Introduction
+* Introduction
 
 The Ncapture Event Management System was developed to improve and automate event management at NSBM Green University. Traditionally, campus event organization was managed manually with significant inefficiencies such as scheduling conflicts, resource mismanagement, and communication issues. This project addresses these challenges by providing a centralized, web-based platform to streamline event scheduling, resource allocation, communication, and reporting — enhancing the overall university event management experience.
 
 ⸻
 
-Background, Objectives & Deliverables
 
-Background
+
+* Background
 
 Campus events at NSBM include academic seminars, cultural activities, and student engagements crucial to student development and community building. The manual system using emails and Microsoft Forms is prone to double bookings, delayed communication, and high administrative overhead. A digital event management system is needed to:
 	•	Automate scheduling and resource management
@@ -39,9 +39,10 @@ Deliverables
 
 ⸻
 
-User Requirements & Data Gathering
 
-User Requirements
+
+
+* User Requirements
 
 Through stakeholder consultation, the following key requirements were identified:
 	•	Secure authentication and role management
@@ -51,6 +52,9 @@ Through stakeholder consultation, the following key requirements were identified
 	•	Feedback mechanisms for continuous improvement
 	•	Mobile and desktop accessibility with an easy-to-use UI
 
+
+
+
 Data Gathering
 
 A detailed survey was conducted among students, lecturers, media club members, and staff using Google Forms. The survey collected data on:
@@ -59,11 +63,16 @@ A detailed survey was conducted among students, lecturers, media club members, a
 	•	Satisfaction with communication and scheduling
 	•	Desired features for a new digital system
 
+
+
 Survey results confirmed strong demand for an automated web application and guided design priorities.
 
 ⸻
 
-Method of Approach
+
+
+* Method of Approach
+
 
 Development Environment and Technologies
 
@@ -78,6 +87,7 @@ Development Environment and Technologies
       Deployment             Microsoft Azure Cloud
 
 
+
 Methodology
 
 An Agile Scrum methodology was adopted, allowing iterative development with frequent user feedback incorporation. The project progressed through sprints involving:
@@ -89,7 +99,9 @@ An Agile Scrum methodology was adopted, allowing iterative development with freq
 
 This approach ensured alignment with stakeholder expectations and adaptability to changing requirements.
 
-Requirements
+
+
+* Requirements
 
 Functional Requirements
 	•	User registration and secure login
@@ -119,7 +131,10 @@ Hardware/Software Requirements
 
 ⸻
 
-Project Overview
+
+
+
+* Project Overview
 
 Ncapture provides a unified platform to replace manual event management at NSBM Green University. Users can submit event requests, manage schedules, allocate resources, and communicate through role-specific dashboards. The system reduces manual errors and administrative overhead while improving event quality and participation.
 
@@ -133,3 +148,68 @@ Project Objectives and Results
          Provide analytics for event/resource usage        Basic analytics dashboard with reporting capabilities              Partially achieved
          Design user-friendly interface                    Role-based, intuitive UI accessible on multiple devices            Achieved
 
+
+
+Challenges and Adjustments
+	•	Machine Learning features simplified due to limited datasets
+	•	Migration from MySQL to MongoDB for better scalability and performance
+	•	Time constraints limited some advanced analytics features
+
+⸻
+
+Future Directions
+	•	Add multilingual support to cater to diverse users
+	•	Integrate AI-based event scheduling and recommendations
+	•	Implement IoT-based resource tracking for real-time monitoring
+	•	Enhance analytics dashboard with richer data visualization
+	•	Incorporate sustainability tracking for paperless workflows
+
+⸻
+
+* Usage
+	1.	Start backend server:
+
+         cd ncapture-backend
+         npm install
+         npm run dev
+
+
+    2.	Start frontend server:
+
+         cd ../ncapture-frontend
+         npm install
+         npm run dev
+
+    3.	Access the application on http://localhost:3000.
+
+	4.	Register or log in based on your role.
+
+	5.	Use your dashboard to manage or participate in events.
+
+
+
+
+
+* Admin User Credentials
+
+Use the following credentials to log in as an administrator for testing and management:
+	•	Email: admin@gmail.com
+	•	Password: admin123
+
+⸻
+
+* Frontend Deployment
+
+The live frontend of the Ncapture Event Management System is deployed on Vercel and accessible here:
+
+https://ncapture-tashendinals-projects.vercel.app/
+
+
+
+* Testing
+
+
+	•	Unit tests for backend APIs and frontend components
+	•	Integration tests for end-to-end workflows
+	•	User acceptance testing with sample users
+	•	Test cases include user authentication, event lifecycle management, resource allocation, notifications, and feedback processing
