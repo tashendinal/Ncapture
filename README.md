@@ -226,4 +226,11 @@ Here is a screenshot of the Main Interface:
 ![Main Interface](Screenshots/1.jpg)
 
 
+# Ncapture Event Management System
+
+[![Release](https://img.shields.io/github/v/release/tashendinal/Ncapture-Event-Management-System)](https://github.com/tashendinal/Ncapture-Event-Management-System/releases)
+[![Build Status](https://github.com/tashendinal/Ncapture-Event-Management-System/actions/workflows/deploy.yml/badge.svg)](https://github.com/tashendinal/Ncapture-Event-Management-System/actions/workflows/deploy.yml)
+[![Vercel Deployment](https://vercelbadge.vercel.app/api/tashendinal/ncapture-tashendinals-projects)](https://ncapture-tashendinals-projects.vercel.app/)
+
+
 
