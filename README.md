@@ -1,7 +1,3 @@
-admin login :  admin@gmail.com 
-password : admin123
-
-
 * Introduction
 
 The Ncapture Event Management System was developed to improve and automate event management at NSBM Green University. Traditionally, campus event organization was managed manually with significant inefficiencies such as scheduling conflicts, resource mismanagement, and communication issues. This project addresses these challenges by providing a centralized, web-based platform to streamline event scheduling, resource allocation, communication, and reporting — enhancing the overall university event management experience.
@@ -213,3 +209,16 @@ https://ncapture-tashendinals-projects.vercel.app/
 	•	Integration tests for end-to-end workflows
 	•	User acceptance testing with sample users
 	•	Test cases include user authentication, event lifecycle management, resource allocation, notifications, and feedback processing
+
+
+
+Screenshot
+
+  ## User Main Interface Preview
+
+Here is a screenshot of the Main Interface:
+
+![Main Interface](screenshots/1.jpeg)
+
+
+
